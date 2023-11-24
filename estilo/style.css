@@ -6,7 +6,7 @@ body {
 
 footer {
     background-color: #234d21;
-    border: 5px dotted #dddb49;
+    border: 5px dotted #4995dd;
     color: #fff;
     text-shadow: 2px 2px 4px #96d4b5;
     text-align: center;
@@ -17,7 +17,7 @@ footer {
 /*Identifiers*/
 #titulo {
     background-color: #234d21;
-    border: 5px dotted #dddb49;
+    border: 5px dotted #4995dd;
     color: #fff;
     text-shadow: 2px 2px 4px #96d4b5;
     text-align: center;
@@ -40,7 +40,7 @@ footer {
 
 .ibtn{
     border-radius: 8px;
-    background-color: #dddb49;
+    background-color: #4995dd;
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -70,7 +70,7 @@ footer {
 }
 
 .ibtn:hover {
-    background-color: #d1d089;
+    background-color: #81afda;
 }
 
 .ibtn:hover span {
@@ -86,7 +86,7 @@ footer {
 
 .tituloSeccion{
     background-image: linear-gradient(rgb(75, 145, 85), rgb(156, 206, 163));
-    color: #e7e681;
+    color: #81afda;
     padding: 10px 10px 10px 10px;
     margin-bottom: 10px;
 }
