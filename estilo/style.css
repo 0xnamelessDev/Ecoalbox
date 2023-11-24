@@ -1,33 +1,106 @@
 
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-        }
+body {
+    background-image:url(../imgs/leaves.jpg);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
 
-        form {
-            max-width: 400px;
-            margin: auto;
-        }
+footer {
+    background-color: #234d21;
+    border: 5px dotted #dddb49;
+    color: #fff;
+    text-shadow: 2px 2px 4px #96d4b5;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin-top: 20px;
+}
 
-        label {
-            display: block;
-            margin-bottom: 8px;
-        }
+/*Identifiers*/
+#titulo {
+    background-color: #234d21;
+    border: 5px dotted #dddb49;
+    color: #fff;
+    text-shadow: 2px 2px 4px #96d4b5;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 20px 15px 15px;
+}
 
-        input, textarea, button {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 16px;
-            box-sizing: border-box;
-        }
+#menuPrincipal{
+    background-color: #dbdfd9;
+    padding: 3px;
+    border-radius: 8px;
+}
 
-        button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            cursor: pointer;
-        }
+#menuPrincipal ul li {
+    display: inline;
+    margin-right: 30px;
+}
 
-        button:hover {
-            background-color: #45a049;
-        }
+/*Classes*/
+
+.ibtn{
+    border-radius: 8px;
+    background-color: #dddb49;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.ibtn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+}
+
+.ibtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.ibtn:hover {
+    background-color: #d1d089;
+}
+
+.ibtn:hover span {
+    padding-right: 25px;
+    
+}
+  
+.ibtn:hover span:after {
+    opacity: 1;
+    right: 0;
+    
+}
+
+.tituloSeccion{
+    background-image: linear-gradient(rgb(75, 145, 85), rgb(156, 206, 163));
+    color: #e7e681;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.textBox {
+    border-radius: 15px;
+    border: 2px solid #96d4b5;
+    background-color: #dbdfd9;
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 10px;
+}
+
+.textBox:hover {
+    transform: scale(1.005);
+    transition-delay: 0s;
+    transition: transform 0.2s 0.05s;
+}
