@@ -1,6 +1,6 @@
 
 body {
-    background-image:url(../imgs/leaves.jpg);
+    
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -16,17 +16,20 @@ footer {
 
 /*Identifiers*/
 #titulo {
-    background-color: #234d21;
-    border: 5px dotted #4995dd;
-    color: #fff;
-    text-shadow: 2px 2px 4px #96d4b5;
+    background-image:url(../imgs/panel2.jpg);
+    background-size: 1920px 720px ;
+    border: 5px solid #4995dd;
+    font-size: larger;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #201397;
+    border-radius: 8px;
     text-align: center;
     font-weight: bold;
     padding: 20px 20px 15px 15px;
 }
 
-#menuPrincipal{
-    background-color: #dbdfd9;
+#titulo nav{
+    background-color: #f0f0e6;
     padding: 3px;
     border-radius: 8px;
 }
@@ -85,8 +88,10 @@ footer {
 }
 
 .tituloSeccion{
-    background-image: linear-gradient(rgb(75, 145, 85), rgb(156, 206, 163));
-    color: #81afda;
+    background-image: linear-gradient(rgb(204, 150, 33), rgb(215, 230, 149));
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #201397;
+    border-radius: 8px;
     padding: 10px 10px 10px 10px;
     margin-bottom: 10px;
 }
