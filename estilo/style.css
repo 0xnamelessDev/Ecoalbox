@@ -2,6 +2,7 @@
 body {
     
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #f1f1f1;
 }
 
 footer {
@@ -25,7 +26,7 @@ footer ul li img{
 /*Carrusel*/
 .slider-container{
     margin: auto;
-    background-color: white;
+    background-color: #f1f1f1;;
     width: 800px;
     padding: 30px;
   }
@@ -96,9 +97,14 @@ footer ul li img{
   }
 
 /*Identifiers*/
-.titulo {
-    background-image:url(../imgs/panel2.jpg);
-    background-size: 1920px 720px ;
+.titulo div {
+    background-image: url("../imgs/panel2.jpg");
+    background-color: #cccccc;
+    height: 250px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
     border: 5px solid #4995dd;
     font-size: larger;
     color: #ffffff;
@@ -110,13 +116,13 @@ footer ul li img{
     position: relative fixed;
 }
 
-.titulo nav{
+.titulo div nav{
     background-color: #f0f0e6;
     padding: 3px;
     border-radius: 8px;
 }
 
-.titulo nav ul li {
+.titulo div nav ul li {
     display: inline;
     margin-right: 30px;
 }
