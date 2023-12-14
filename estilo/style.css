@@ -5,6 +5,11 @@ body {
     background-color: #f1f1f1;
 }
 
+main{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
 footer {
     background-image: linear-gradient(rgb(204, 150, 33), rgb(215, 230, 149));
     border: 5px solid #4995dd;
